@@ -856,10 +856,34 @@ MonoBehaviour:
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 268775859}
+        m_TargetAssemblyTypeName: ARManager, Assembly-CSharp
+        m_MethodName: OnTrackableFound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 268775859}
+        m_TargetAssemblyTypeName: ARManager, Assembly-CSharp
+        m_MethodName: OnTrackableLost
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &891905000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,6 +1834,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4075639194886003786, guid: cee1f28cb205e654b8f422015dde4bb4,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075639194886003786, guid: cee1f28cb205e654b8f422015dde4bb4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075639194886003786, guid: cee1f28cb205e654b8f422015dde4bb4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075639194886003786, guid: cee1f28cb205e654b8f422015dde4bb4,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2019,6 +2058,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8809985779460667149, guid: cee1f28cb205e654b8f422015dde4bb4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970163297760220516, guid: cee1f28cb205e654b8f422015dde4bb4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -6478536213147159724, guid: e50fd7ebf790ff748b626fa66afd403b,
+        type: 3}
+    - target: {fileID: 9058633823087460102, guid: cee1f28cb205e654b8f422015dde4bb4,
         type: 3}
       propertyPath: m_IsActive
       value: 1
