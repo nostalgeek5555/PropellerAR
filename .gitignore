@@ -1,0 +1,14 @@
+PropellerAR/Library/
+PropellerAR/Logs/
+PropellerAR/Temp/
+PropellerAR/VuforiaVersionCheckerScripts.csproj
+PropellerAR/QCAR/somedata16
+PropellerAR/UserSettings/
+PropellerAR/Packages/
+PropellerAR/.vsconfig
+PropellerAR/Assembly-CSharp.csproj
+PropellerAR/CommonEditor.csproj
+PropellerAR/CommonScripts.csproj
+PropellerAR/EditorMigrationScripts.csproj
+PropellerAR/PropellerAR.sln
+PropellerAR/SamplesScripts.csproj
